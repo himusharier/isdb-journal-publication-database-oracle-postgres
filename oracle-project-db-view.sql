@@ -1,0 +1,29 @@
+CREATE VIEW user_article_details_view AS (
+SELECT art.ARTICLE_TITLE 
+	, art.ABSTRACT 
+	, art.ARTICLE_TYPE 
+	, art.KEYWORDS 
+	, art.DOI_ID 
+	, jur.JOURNAL_NAME 
+	, art.VOL_ISSUE 
+	, CONCAT(CONCAT(usr.FIRST_NAME, ' '), usr.LAST_NAME) AS AUTHOR_NAME
+	, usr.GENDER
+	, usr.DATE_OF_BIRTH 
+	, usr.EMAIL 
+	, usr.PHONE 
+	, usr.PROFESSION 
+	, usr.INSTITUTE 
+	, usr.COUNTRY 
+	, usr.ADDRESS 
+	, CONCAT(CONCAT(crosponding.FIRST_NAME, ' '), crosponding.LAST_NAME) AS CROSPONDING_NAME
+	, crosponding.INSTITUTE AS CROSPONDING_INSTITUTE
+	, crosponding.EMAIL AS CROSPONDING_EMAIL
+	, crosponding.PHONE AS CROSPONDING_PHONE
+FROM USERS usr
+RIGHT JOIN ARTICLES art
+	ON usr.USER_ID = art.AUTHOR 
+LEFT JOIN JOURNALS jur
+	ON jur.JOURNAL_ID = art.JOURNAL_ID
+LEFT JOIN USERS crosponding
+	ON crosponding.USER_ID = art.CROSPONDING_AUTHOR 
+)
