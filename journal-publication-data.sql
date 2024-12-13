@@ -1,48 +1,48 @@
 -- Insert data into the journals table (OK)
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Botanical Research Journal', '1234-5678', 'Research', 3.5, 'Monthly', '30');
+VALUES ('Botanical Research Journal', '1234-5678', 'Research', 3.5, 'Monthly', 30);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Plant Science Today', '2345-6789', 'Review', 4.0, 'Quarterly', '25');
+VALUES ('Plant Science Today', '2345-6789', 'Review', 4.0, 'Quarterly', 25);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Journal of Environmental Biology', '3456-7890', 'Research', 2.8, 'Bi-Monthly', '40');
+VALUES ('Journal of Environmental Biology', '3456-7890', 'Research', 2.8, 'Bi-Monthly', 40);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Agricultural Innovation Journal', '4567-8901', 'Research', 4.2, 'Monthly', '35');
+VALUES ('Agricultural Innovation Journal', '4567-8901', 'Research', 4.2, 'Monthly', 35);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('International Journal of Botany', '5678-9012', 'Review', 5.0, 'Annually', '20');
+VALUES ('International Journal of Botany', '5678-9012', 'Review', 5.0, 'Annually', 20);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Plant Diversity and Conservation', '6789-0123', 'Research', 3.2, 'Quarterly', '30');
+VALUES ('Plant Diversity and Conservation', '6789-0123', 'Research', 3.2, 'Quarterly', 30);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Journal of Plant Pathology', '7890-1234', 'Research', 3.7, 'Bi-Monthly', '50');
+VALUES ('Journal of Plant Pathology', '7890-1234', 'Research', 3.7, 'Bi-Monthly', 50);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Global Plant Studies', '8901-2345', 'Research', 2.5, 'Monthly', '40');
+VALUES ('Global Plant Studies', '8901-2345', 'Research', 2.5, 'Monthly', 40);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Journal of Horticulture Science', '9012-3456', 'Research', 3.1, 'Monthly', '33');
+VALUES ('Journal of Horticulture Science', '9012-3456', 'Research', 3.1, 'Monthly', 33);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Plant Biotechnology Review', '0123-4567', 'Review', 4.8, 'Annually', '15');
+VALUES ('Plant Biotechnology Review', '0123-4567', 'Review', 4.8, 'Annually', 15);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Forest Ecology and Management', '2345-6789', 'Research', 4.0, 'Quarterly', '28');
+VALUES ('Forest Ecology and Management', '2345-6789', 'Research', 4.0, 'Quarterly', 28);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Plant Ecology Journal', '3456-7890', 'Research', 3.9, 'Bi-Monthly', '42');
+VALUES ('Plant Ecology Journal', '3456-7890', 'Research', 3.9, 'Bi-Monthly', 42);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Marine Plant Science', '4567-8901', 'Research', 2.7, 'Monthly', '37');
+VALUES ('Marine Plant Science', '4567-8901', 'Research', 2.7, 'Monthly', 37);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Crop Science Journal', '5678-9012', 'Research', 3.6, 'Quarterly', '45');
+VALUES ('Crop Science Journal', '5678-9012', 'Research', 3.6, 'Quarterly', 45);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Tropical Plant Research', '6789-0123', 'Research', 4.1, 'Monthly', '30');
+VALUES ('Tropical Plant Research', '6789-0123', 'Research', 4.1, 'Monthly', 30);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Plant Genetics and Genomics', '7890-1234', 'Review', 4.3, 'Annually', '18');
+VALUES ('Plant Genetics and Genomics', '7890-1234', 'Review', 4.3, 'Annually', 18);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Botany and Sustainability', '8901-2345', 'Research', 3.0, 'Quarterly', '38');
+VALUES ('Botany and Sustainability', '8901-2345', 'Research', 3.0, 'Quarterly', 38);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('International Journal of Plant Physiology', '9012-3456', 'Research', 3.4, 'Bi-Monthly', '43');
+VALUES ('International Journal of Plant Physiology', '9012-3456', 'Research', 3.4, 'Bi-Monthly', 43);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Journal of Agricultural Biotechnology', '0123-4567', 'Review', 5.2, 'Annually', '12');
+VALUES ('Journal of Agricultural Biotechnology', '0123-4567', 'Review', 5.2, 'Annually', 12);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Ecology and Evolutionary Biology Journal', '1234-5678', 'Research', 4.5, 'Monthly', '36');
+VALUES ('Ecology and Evolutionary Biology Journal', '1234-5678', 'Research', 4.5, 'Monthly', 36);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Fungal Plant Diseases Journal', '2345-6789', 'Research', 2.9, 'Bi-Monthly', '55');
+VALUES ('Fungal Plant Diseases Journal', '2345-6789', 'Research', 2.9, 'Bi-Monthly', 55);
 INSERT INTO journals (journal_name, eissn_id, publication_type, impact_factor, publication_frequency, acceptance_rate) 
-	VALUES ('Plant Molecular Biology Journal', '3456-7890', 'Research', 3.8, 'Quarterly', '34');
+VALUES ('Plant Molecular Biology Journal', '3456-7890', 'Research', 3.8, 'Quarterly', 34);
 
 
 -- Insert data into the issues table (OK)
