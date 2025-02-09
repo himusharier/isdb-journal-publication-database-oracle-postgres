@@ -1,3 +1,6 @@
+## ER Diagram for Journal Database
+![Journal Database ER Diagram](https://github.com/himusharier/isdb-oracle-journal-publication-database/blob/5e431cb70b3feaf3deb04c50f96338253ffa1781/journal-publication%2C%20er-diagram%20(actual).png)
+
 # Journal Database SQL Queries
 
 ## Basic Queries
